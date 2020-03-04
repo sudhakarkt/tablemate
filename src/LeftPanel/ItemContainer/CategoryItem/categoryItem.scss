@@ -1,0 +1,34 @@
+@import '../../../theme.scss';
+
+.categoryItem {
+    margin-bottom: 50px;
+
+    .categoryName {
+        margin-bottom: 10px;
+
+        .categoryInner {
+            display: flex;
+            background: $CategorytileBG;
+            justify-content: center;
+            min-height: 70px;
+            border-radius: 10px;
+            box-shadow: 1px 0 3px rgba(0,0,0,0.1525);
+            align-items: center;
+            position: relative;
+
+            .categoryValue {
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+
+            .categoryStatus {
+                width: 100%;
+                background-color: rgba(48, 224, 102, 0.8);
+                height: 5px;
+                position: absolute;
+                top: 0;
+            }
+        }
+   }
+
+}

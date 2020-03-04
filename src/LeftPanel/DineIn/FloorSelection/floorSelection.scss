@@ -1,0 +1,35 @@
+@import '../../../theme.scss';
+
+.floorSelectionContainer {
+
+    ul {
+        padding: 0px;
+        margin: 0px;
+
+        li {
+            list-style-type: none;
+            background-color: #fff9eb;
+
+            &:nth-child(even) {
+                background-color: #fff2d4;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+                color: #000;
+                font-size: 15px;
+                height: 60px;
+                padding: 0 10px;
+                font-weight: 600;
+
+                &:hover {
+                    text-decoration: none;
+                }
+
+            }
+
+        }
+    }
+    
+}
