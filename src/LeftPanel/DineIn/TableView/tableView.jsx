@@ -1,199 +1,45 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import "./tableView.scss";
 
 class TableView extends Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {  }
-    // }
+    constructor(props) {
+        super(props);
+        this.state = {  }
+    }
     render() { 
         return ( 
             <React.Fragment>
-                <div className="tableviewContainer">
+                <div className="col-md-10 tableviewContainer">
                     <div className="row">
                         <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F1</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F2</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F3</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F4</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F5</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F6</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F1</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F2</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F3</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F4</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F5</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F6</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F1</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F2</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F3</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F4</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F5</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F6</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F1</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F2</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F3</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F4</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F5</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F6</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F1</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F2</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F3</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F4</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F5</div>
-                                <div className="tableStatus"></div>
-                            </div>
-                        </div>
-                        <div className="col-md-2 tableName">
-                            <div className="tableNameInner">
-                                <div className="tableNameValue">F6</div>
-                                <div className="tableStatus"></div>
-                            </div>
+                            <Link to='./menu' className="tableNameInner">
+                                <div className="row tableHeader">
+                                    <div className="col-md-4">
+                                        <div className="tableInnerName">F10</div>
+                                    </div>
+                                    <div className="col-md-8">
+                                        <div className="tableValue">Sudhakar KT</div>
+                                    </div>
+                                </div>
+                                <div className="row tableNameValue">
+                                    <div className="col-md-7">
+                                        <Link to='./' className="guestName">Karthick V</Link>
+                                    </div>
+                                    <div className="col-md-5">
+                                        <Link to='./' className="paxName">KT</Link>
+                                    </div>
+                                </div>
+                                <div className="row m-0 tableMenu">
+                                    <div className="col-md-2 p-0 runningOrder"><button type="btn" className="btn btn-primary">RO</button></div>
+                                    <div className="col-md-2 p-0 tableOrder"><button type="btn" className="btn btn-primary">O</button></div>
+                                    <div className="col-md-2 p-0 tableNC"><button type="btn" className="btn btn-primary">NC</button></div>
+                                    <div className="col-md-2 p-0 tableBill"><button type="btn" className="btn btn-primary">Bill</button></div>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
-
             </React.Fragment>
          );
     }

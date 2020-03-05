@@ -3,13 +3,15 @@
 .search-form {
     margin-left: auto;
     padding-right: 0;
-    margin-bottom: 20px;
+    margin: 15px 0;
+    position: sticky;
+    top: 0px;
 
     input {
         height: 50px;
-        border-radius: 0px 0 50px 10px;
         border-color: #ececec;
         box-shadow: 0px 5px 8px rgba(0,0,0,0.1);
+        font-size: 1rem;
         font-weight: 400;
         
         &:focus {
@@ -18,4 +20,10 @@
             border-color: #ececec;
         }
     }
+}
+
+section {
+    position: relative;
+    height: calc(100vh - 50px);
+    overflow: auto;
 }

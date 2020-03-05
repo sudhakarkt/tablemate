@@ -12,7 +12,7 @@ class BillPreview  extends Component {
                 <div className="billPreviewContainer">
                     <div className="row">
                         <div className="col">
-                            <h1>Bill Preview Rendered...</h1>
+                            {/* <h1>Bill Preview Rendered...</h1> */}
                         </div>
                     </div>
                 </div>

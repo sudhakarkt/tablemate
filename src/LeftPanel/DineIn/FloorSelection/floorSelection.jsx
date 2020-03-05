@@ -1,24 +1,50 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import "./floorSelection.scss";
 
 class FloorSelection extends Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {  }
-    // }
+    constructor(props) {
+        super(props);
+        this.state = {  }
+    }
     render() { 
         return ( 
             <React.Fragment>
-                <div className="floorSelectionContainer">
-                    <ul>
-                        <li><a href="javascript:void(0);">Ground</a></li> 
-                        <li><a href="javascript:void(0);">Floor 1</a></li>
-                        <li><a href="javascript:void(0);">Floor 2</a></li>
-                        <li><a href="javascript:void(0);">Floor 3</a></li>
-                        <li><a href="javascript:void(0);">Floor 4</a></li>
-                        <li><a href="javascript:void(0);">Floor 5</a></li>
-                        <li><a href="javascript:void(0);">Floor 1</a></li>
-                    </ul>
+                <div className="col-md-2 floorSelectionContainer">
+                    <div className="row">
+                        <div className="col">
+                            <ul>
+                                <li><Link to='./menu'>Ground</Link></li> 
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Ground</Link></li> 
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Ground</Link></li> 
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Ground</Link></li> 
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                                <li><Link to='./menu'>Floor </Link></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </React.Fragment>
          );

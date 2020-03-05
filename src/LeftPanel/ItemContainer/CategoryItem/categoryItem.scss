@@ -1,16 +1,19 @@
 @import '../../../theme.scss';
 
 .categoryItem {
-    margin-bottom: 50px;
+    flex-direction: column;
+    height: calc(100vh - 130px);
+    flex-wrap: nowrap;
+    overflow: auto;
 
     .categoryName {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
 
         .categoryInner {
             display: flex;
-            background: $CategorytileBG;
+            background: $CategoryTileBG;
             justify-content: center;
-            min-height: 70px;
+            min-height: $categoryTileHeight;
             border-radius: 10px;
             box-shadow: 1px 0 3px rgba(0,0,0,0.1525);
             align-items: center;
@@ -18,7 +21,9 @@
 
             .categoryValue {
                 text-transform: uppercase;
+                font-size: 0.85rem;
                 font-weight: 600;
+                text-align: center;
             }
 
             .categoryStatus {

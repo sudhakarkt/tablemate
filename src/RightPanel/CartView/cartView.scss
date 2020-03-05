@@ -1,9 +1,51 @@
 @import '../../theme.scss';
 
 .cartviewContainer {
+    height: calc(100vh - 80px);
+    background-color: rgba(247, 235, 208, 0.4);
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: 15px;
 
-    h1 {
-        font-size: 12px;
+    .cartHeader {
+        font-size: 0.62rem;
+        margin-bottom: 5px;
+
+        p {
+            margin-bottom: 0px;
+
+            &.cartTax {
+               text-align: left; 
+            }
+
+            &.cartQuantity {
+                text-align: right;
+            }
+        }
+    }
+
+    .cartTableContainer {
+        font-size: 0.75rem;
+
+        .cartTable {
+            border: 1px solid #f7ebd0;
+
+            td, th {
+                border: 1px solid #f7ebd0;
+                font-weight: 400;
+                font-size: 0.65rem;
+                padding: 3px 5px;
+                text-align: center;
+            }
+
+            th {
+                background-color: #f7ebd0;
+                color: inherit;
+            }
+
+            td {
+            }
+        }
     }
 
 }

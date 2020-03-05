@@ -2,26 +2,29 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.scss';
 import Header from "./Header/header";
-import Search from "./Search/search";
-import LeftPanel from "./LeftPanel/leftPanel";
-import RightPanel from "./RightPanel/rightPanel";
+import DineIn from "./LeftPanel/DineIn/dineIn";
+import ItemContainer from "./LeftPanel/ItemContainer/itemContainer";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Header />
-      <div className="container-fluid">
-        <Search />
-        <div className="row">
-          <div className="col-md-10">
-            <LeftPanel />
-          </div>
-          <div className="col-md-2">
-            <RightPanel />
+      <section>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-12">
+            <Switch>
+              <Route path="/" exact component={DineIn} />
+              <Route path="/menu" component={ItemContainer} />
+            </Switch>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
+    </Router>
   );
 }
 

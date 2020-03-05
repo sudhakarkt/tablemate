@@ -1,6 +1,9 @@
 @import '../../../theme.scss';
 
 .floorSelectionContainer {
+    height: calc(100vh - 50px);
+    flex-wrap: nowrap;
+    overflow: auto;
 
     ul {
         padding: 0px;
@@ -17,11 +20,11 @@
             a {
                 display: flex;
                 align-items: center;
-                color: #000;
-                font-size: 15px;
+                color: inherit;
+                font-size: 1rem;
                 height: 60px;
                 padding: 0 10px;
-                font-weight: 600;
+                font-weight: 400;
 
                 &:hover {
                     text-decoration: none;

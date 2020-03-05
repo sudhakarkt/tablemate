@@ -4,10 +4,10 @@ import BillPreview from "./BillPreview/billPreview";
 import "./rightPanel.scss";
 
 class RightPanel extends Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {  }
-    // }
+    constructor(props) {
+        super(props);
+        this.state = {  }
+    }
     render() { 
         return ( 
             <React.Fragment>

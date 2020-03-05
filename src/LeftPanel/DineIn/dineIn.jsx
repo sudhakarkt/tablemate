@@ -9,17 +9,13 @@ class DineIn extends Component {
             <React.Fragment>
                 <div className="dineInContainer">
                     <div className="row">
-                        <div className="col-md-2 pl-0">
-                            <FloorSelection />
-                        </div>
-                        <div className="col-md-10 pl-0">
-                            <TableView />
-                        </div>
+                        <FloorSelection />
+                        <TableView />
                     </div>
                 </div>
             </React.Fragment>
          ); 
     }
 }
- 
+
 export default DineIn;
