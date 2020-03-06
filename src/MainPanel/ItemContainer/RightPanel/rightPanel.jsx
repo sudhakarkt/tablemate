@@ -13,7 +13,7 @@ class RightPanel extends Component {
             <React.Fragment>
                 <div className="rightPanel">
                     <CartView />
-                    <BillPreview />
+                    {/* <BillPreview /> */}
                 </div>
             </React.Fragment>
          );

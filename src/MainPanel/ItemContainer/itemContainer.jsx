@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import CategoryItem from "./CategoryItem/categoryItem";
-import SubCategoryItem from "./subCategoryItem/subCategoryItem";
-import Search from "../../Search/search";
-import RightPanel from "../../RightPanel/rightPanel"
+import SubCategoryItem from "./SubCategoryItem/subCategoryItem";
+import Search from "../ItemContainer/Search/search";
+import RightPanel from "../ItemContainer/RightPanel/rightPanel";
 
 class itemContainer extends Component {
   constructor(props) {
@@ -25,7 +25,7 @@ class itemContainer extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-2 pl-0">
+            <div className="col-md-2">
               <RightPanel />
             </div>
           </div>

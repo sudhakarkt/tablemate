@@ -1,0 +1,109 @@
+@import '../../../../theme.scss';
+
+.cartviewContainer {
+    height: calc(100vh - 80px);
+    background-color: #FFFFFF;
+    padding: 0px 0px;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0px 0 4px rgba(0,0,0,0.25);
+
+    .cartBlock {
+        height: inherit;
+    
+        .cartHeader {
+            font-size: 0.62rem;
+            margin-bottom: 5px;
+
+            p {
+                margin-bottom: 0px;
+                margin-bottom: 0px;
+                color: #b3b3b3;
+                
+                &.invoiceLogo {
+                    text-align: center;
+                    padding: 10px 0;
+                }
+
+                &.cartTax {
+                text-align: right;
+                margin-bottom: 2px;
+                }
+
+                &.cartQuantity {
+                    text-align: center;
+                    margin-bottom: 2px;
+                    font-weight: 600;
+                }
+            
+            }
+        }
+
+        .cartTableContainer {
+            font-size: 0.6672rem;
+            height: calc(100% - 210px);
+            overflow: auto;
+            
+
+            .cartTable {
+                
+                tr {
+                    border-bottom: 1px solid #f7ebd0;
+
+                }
+
+                td, th {
+                    border-collapse: collapse;
+                    font-weight: 400;
+                    font-size: 0.65rem;
+                    padding: 6px 5px;
+                    text-align: center;
+                }
+
+                th {
+                    border: 1px solid #f7ebd0;
+                    background-color: #f7ebd0;
+                    font-weight: 600;
+                    color: inherit;
+                }
+
+                td {
+
+                    .itemCount {
+                        width: 40px;
+                        text-align: center;
+                    }
+
+                    .addItem {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .currentOrderContainer {
+            text-align: center;
+
+            .currentOrders {
+                font-size: 0.65rem;
+                font-weight: 600;
+                color: #000;
+                margin: 4px 0;
+            }
+
+            .btn {
+                padding: 5px;
+                width: 90px;
+                margin: 0 auto;
+                font-size: 0.7rem;
+                background-color: $btnPrimaryColor;
+                border-color: $btnPrimaryBorderColor;
+
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+
+}

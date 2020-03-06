@@ -2,8 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.scss';
 import Header from "./Header/header";
-import DineIn from "./LeftPanel/DineIn/dineIn";
-import ItemContainer from "./LeftPanel/ItemContainer/itemContainer";
+import DineIn from "./MainPanel/DineIn/dineIn";
+import ItemContainer from "./MainPanel/ItemContainer/itemContainer";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {

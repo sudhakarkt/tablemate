@@ -18,7 +18,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -31,7 +31,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -44,7 +44,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -57,7 +57,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -70,7 +70,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -83,7 +83,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -96,7 +96,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -109,7 +109,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -122,7 +122,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -135,7 +135,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -148,7 +148,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -161,7 +161,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -174,7 +174,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -187,7 +187,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -200,7 +200,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -213,7 +213,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -226,7 +226,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -239,7 +239,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -252,7 +252,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -265,7 +265,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -278,7 +278,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -291,7 +291,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -304,7 +304,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -317,7 +317,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -330,7 +330,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -343,7 +343,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -356,7 +356,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -369,7 +369,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -382,7 +382,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -395,7 +395,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -408,7 +408,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -421,7 +421,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -434,7 +434,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -447,7 +447,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -460,7 +460,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -473,7 +473,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -486,7 +486,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -499,7 +499,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -512,7 +512,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -525,7 +525,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -538,7 +538,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -551,7 +551,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -564,7 +564,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -577,7 +577,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -590,7 +590,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>
@@ -603,7 +603,7 @@ class SubCategoryItem extends Component {
                                 <p className="valuePrice">&#x20b9; 1500.00</p>
                             </div>
                             <div className="row m-0 subCategoryMenu">
-                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">RO</Link></div>
+                                <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
                                 <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
                                 <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
                             </div>

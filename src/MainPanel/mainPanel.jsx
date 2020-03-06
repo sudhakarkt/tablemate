@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import DineIn from "./DineIn/dineIn"; 
 import ItemContainer from "./ItemContainer/itemContainer"; 
 
-class LeftPanel extends Component {
+class MainPanel extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -10,7 +10,7 @@ class LeftPanel extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <div className="leftPanel">
+                <div className="MainPanel">
                     <DineIn />
                     <ItemContainer />
                 </div>
@@ -19,4 +19,4 @@ class LeftPanel extends Component {
     }
 }
  
-export default LeftPanel;
+export default MainPanel;
