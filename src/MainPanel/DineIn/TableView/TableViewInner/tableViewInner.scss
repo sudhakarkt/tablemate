@@ -50,6 +50,8 @@
                     white-space: nowrap;
                     text-overflow: ellipsis;
                     color: inherit;
+                    border: none;
+                    background: none;
 
                     &:hover {
                         text-decoration: none;
@@ -61,6 +63,8 @@
                     text-overflow: ellipsis;
                     text-align: right;
                     color: inherit;
+                    border: none;
+                    background: none;
 
                     &:hover {
                         text-decoration: none;

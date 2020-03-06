@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CartView from "./CartView/cartView";
-import BillPreview from "./BillPreview/billPreview";
+// import BillPreview from "./BillPreview/billPreview";
 import "./rightPanel.scss";
 
 class RightPanel extends Component {

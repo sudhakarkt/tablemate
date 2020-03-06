@@ -40,185 +40,185 @@ class CartView extends Component {
                                         <tbody>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
                                             <tr>
                                                 <td>2+1 Heineken</td>
-                                                <td><input type="text" className="itemCount" value="1" /></td>
+                                                <td><input type="text" className="itemCount" defaultValue="1" /></td>
                                                 <td>960.70</td>
                                                 <td>960.70</td>
-                                                <td><span title="Add" className="addItem"><img width="15" src={Add} alt="Tablemate POS" /></span></td>
+                                                <td><span title="Add" className="addItem"><img width="15" src={ Add }alt="Tablemate POS" /></span></td>
                                             </tr>
 
                                         </tbody>

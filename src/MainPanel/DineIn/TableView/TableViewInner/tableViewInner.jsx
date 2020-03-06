@@ -22,17 +22,17 @@ class TableViewInner extends Component {
                         </div>
                         <div className="row tableNameValue">
                             <div className="col-md-7">
-                                <Link to='./' className="guestName">Karthick V</Link>
+                                <button type="button" className="guestName">Karthick V</button>
                             </div>
                             <div className="col-md-5">
-                                <Link to='./' className="paxName">KT</Link>
+                                <button type="button" className="paxName">KT</button>
                             </div>
                         </div>
                         <div className="row m-0 tableMenu">
-                            <div className="col-md-2 p-0 runningOrder"><button type="btn" className="btn btn-primary">RO</button></div>
-                            <div className="col-md-2 p-0 tableOrder"><button type="btn" className="btn btn-primary">O</button></div>
-                            <div className="col-md-2 p-0 tableNC"><button type="btn" className="btn btn-primary">NC</button></div>
-                            <div className="col-md-2 p-0 tableBill"><button type="btn" className="btn btn-primary">Bill</button></div>
+                            <div className="col-md-2 p-0 runningOrder"><button type="button" className="btn btn-primary">RO</button></div>
+                            <div className="col-md-2 p-0 tableOrder"><button type="button" className="btn btn-primary">O</button></div>
+                            <div className="col-md-2 p-0 tableNC"><button type="button" className="btn btn-primary">NC</button></div>
+                            <div className="col-md-2 p-0 tableBill"><button type="button" className="btn btn-primary">Bill</button></div>
                         </div>
                     </Link>
                 </div>
