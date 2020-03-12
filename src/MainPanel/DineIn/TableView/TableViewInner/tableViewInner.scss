@@ -1,10 +1,5 @@
 @import '../../../../theme.scss';
 
-.tableviewContainer {
-    height: calc(100vh - 50px);
-    flex-wrap: nowrap;
-    overflow: auto;
-    
    .tableName {
         margin: 15px 0;
         
@@ -25,6 +20,15 @@
                 text-decoration: none;
             }
             
+            .tableNameInnerLink {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                z-index: 9;
+            }
+
             .tableHeader {
                 margin-bottom: 15px;
 
@@ -32,13 +36,29 @@
                     overflow: hidden;
                     white-space: nowrap;
                     text-overflow: ellipsis;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    color: inherit;
+                    border: none;
+                    background: none;
+                    padding: 0;
+                    position: relative;
+                    z-index: 99;
                 }
 
                 .tableValue {
                     overflow: hidden;
                     white-space: nowrap;
                     text-overflow: ellipsis;
-                    text-align: right;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    color: inherit;
+                    border: none;
+                    background: none;
+                    padding: 0;
+                    float: right;
+                    position: relative;
+                    z-index: 99;
                 }
             }
 
@@ -52,6 +72,9 @@
                     color: inherit;
                     border: none;
                     background: none;
+                    padding: 0;
+                    position: relative;
+                    z-index: 99;
 
                     &:hover {
                         text-decoration: none;
@@ -61,10 +84,13 @@
                     overflow: hidden;
                     white-space: nowrap;
                     text-overflow: ellipsis;
-                    text-align: right;
                     color: inherit;
                     border: none;
                     background: none;
+                    float: right;
+                    padding: 0;
+                    position: relative;
+                    z-index: 99;
 
                     &:hover {
                         text-decoration: none;
@@ -77,15 +103,9 @@
                 justify-content: space-around;
 
                 .btn {
-                    padding: 5px;
-                    font-size: 0.7rem;
                     width: 100%;
-                    background-color: $btnPrimaryColor;
-                    border-color: $btnPrimaryBorderColor;
-
-                    &:focus {
-                        box-shadow: none;
-                    }
+                    position: relative;
+                    z-index: 99;
                 }
                     
                 .runningOrder {
@@ -114,5 +134,3 @@
             }
         }
     }
-     
-}

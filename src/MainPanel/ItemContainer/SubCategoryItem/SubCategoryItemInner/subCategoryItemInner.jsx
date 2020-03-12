@@ -1,31 +1,48 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 import "./subCategoryItemInner.scss";
 
-class SubCategoryItemInner extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
-        return ( 
-            <React.Fragment>
-                <div className="col-md-2 subCategoryName">
-                    <div className="subCategoryInner">
-                        <div className="subCategoryValue">
-                            <p>Beer</p>
-                            <p className="valuePrice">&#x20b9; 1500.00</p>
-                        </div>
-                        <div className="row m-0 subCategoryMenu">
-                            <div className="col-md-3 p-0 runningOrder"><Link to='./' className="btn btn-primary">NC</Link></div>
-                            <div className="col-md-3 p-0 tableOrder"><Link to='./' className="btn btn-primary">O</Link></div>
-                            <div className="col-md-3 p-0 tableBill"><Link to='./' className="btn btn-primary">CUST</Link></div>
-                        </div>
+function SubCategoryItemInner(props) {
+	const [show, setShow] = useState(false);
+	const handleClose = () => setShow(false);
+	const handleShow = () => setShow(true);
+    return ( 
+        <React.Fragment>
+            <div className="col-md-2 subCategoryName">
+                <div className="subCategoryInner">
+                    <Link to='/' className="subCategoryInnerLink"></Link>
+                    <div className="subCategoryValue">
+                        <p>Beer</p>
+                        <p className="valuePrice">&#x20b9; 1500.00</p>
+                    </div>
+                    <div className="row m-0 subCategoryMenu">
+                        <div className="col-md-4 p-0 runningOrder"><button type="button" className="btn btn-primary" onClick={handleShow}>NC</button></div>
+                        {/* <div className="col-md-4 p-0 tableOrder"><button type="button" className="btn btn-primary" onClick={handleShow}>O</button></div> */}
+                        <div className="col-md-4 p-0 tableBill"><button type="button" className="btn btn-primary" onClick={handleShow}>CUST</button></div>
                     </div>
                 </div>
-            </React.Fragment>
-         );
-    }
+            </div>
+            <Modal
+                show={show}
+                onHide={handleClose}
+                {...props}
+                size="md"
+                aria-labelledby="contained-modal-title-vcenter"
+                centered
+            >
+                <Modal.Header closeButton>
+                    <Modal.Title>Custom Product</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+                <Modal.Footer>
+                    <Button variant="secondary" className="btn btn-primary" onClick={handleClose}>Close</Button>
+                    <Button variant="primary" className="btn btn-primary" onClick={handleClose}>Save Changes</Button>
+                </Modal.Footer>
+            </Modal>
+        </React.Fragment>
+        );
 }
  
 export default SubCategoryItemInner;

@@ -1,12 +1,8 @@
 @import '../../../../theme.scss';
 
-.subCategoryItem {
-    align-content: flex-start;
-    height: calc(100vh - 130px);
-    overflow: auto;
-
     .subCategoryName {
         margin-bottom: 15px;
+        min-width: 250px;
 
         .subCategoryInner {
             background: $SubCategoryTileBG;
@@ -19,14 +15,29 @@
             position: relative;
             overflow: hidden;
 
+            .subCategoryInnerLink {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                z-index: 9;
+            }
+
             .subCategoryValue {
                 text-transform: uppercase;
                 text-align: center;
                 font-weight: 600;
                 margin-bottom: 5px;
+                // display: flex;
+                // flex-direction: column;
 
                 p {
                     margin: 8px 0;
+                    // display: inline-flex;
+                    // position: relative;
+                    // z-index: 99;
+                    // align-self: center;
 
                     &.valuePrice {
                         color: #6f4f00;
@@ -38,15 +49,9 @@
                 justify-content: space-around;
 
                 .btn {
-                    padding: 5px;
-                    font-size: 0.7rem;
                     width: 100%;
-                    background-color: $btnPrimaryColor;
-                    border-color: $btnPrimaryBorderColor;
-
-                    &:focus {
-                        box-shadow: none;
-                    }
+                    position: relative;
+                    z-index: 99;
                 }
                     
                 .runningOrder {
@@ -75,5 +80,3 @@
             }
         }
    }
-
-}

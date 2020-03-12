@@ -20,33 +20,6 @@ class SubCategoryItem extends Component {
                     <SubCategoryInner />
                     <SubCategoryInner />
                     <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
-                    <SubCategoryInner />
                 </div>
             </React.Fragment>
          );

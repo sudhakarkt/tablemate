@@ -2,7 +2,9 @@
 
 .floorSelectionContainer {
     height: calc(100vh - 50px);
+    width: 250px;
     flex-wrap: nowrap;
+    flex-basis: auto;
     overflow: auto;
 
     ul {
@@ -21,7 +23,7 @@
                 display: flex;
                 align-items: center;
                 color: inherit;
-                font-size: 1rem;
+                font-size: 0.85rem;
                 height: 60px;
                 padding: 0 10px;
                 font-weight: 400;

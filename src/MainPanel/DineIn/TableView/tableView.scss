@@ -2,6 +2,8 @@
 
 .tableviewContainer {
     height: calc(100vh - 50px);
+    width: calc(100% - 250px);
     flex-wrap: nowrap;
+    flex-basis: auto;
     overflow: auto;
 }

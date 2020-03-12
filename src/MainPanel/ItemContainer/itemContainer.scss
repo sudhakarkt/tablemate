@@ -1,1 +1,13 @@
 @import '../../theme.scss';
+
+.itemLeftContainer {
+    width: calc(100% - 350px);
+}
+
+.itemRightContainer {
+    width: 350px;
+}
+
+.itemLeftContainer, .itemRightContainer {
+    flex-basis: auto;
+}

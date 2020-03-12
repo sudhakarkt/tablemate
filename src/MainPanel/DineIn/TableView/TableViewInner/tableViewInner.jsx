@@ -11,34 +11,31 @@ function TableViewInner(props) {
 	return (
 		<React.Fragment>
 			<div className="col-md-2 tableName">
-				<Link to='./menu' className="tableNameInner">
+				<div className="tableNameInner">
+					<Link to='./menu' className="tableNameInnerLink"></Link>
 					<div className="row tableHeader">
 						<div className="col-md-4">
-							<div className="tableInnerName">F10</div>
+							<button type="button" className="tableInnerName" onClick={handleShow}>F10</button>
 						</div>
 						<div className="col-md-8">
-							<div className="tableValue">Sudhakar KT</div>
+							<button type="button" className="tableValue" onClick={handleShow}>Sudhakar KT</button>
 						</div>
 					</div>
 					<div className="row tableNameValue">
 						<div className="col-md-7">
-							<button type="button" className="guestName">Karthick V</button>
+							<button type="button" className="guestName" onClick={handleShow}>Karthick V</button>
 						</div>
 						<div className="col-md-5">
-							<button type="button" className="paxName">KT</button>
+							<button type="button" className="paxName" onClick={handleShow}>KT</button>
 						</div>
 					</div>
 					<div className="row m-0 tableMenu">
-						<div className="col-md-2 p-0 runningOrder"><button type="button" className="btn btn-primary">RO</button></div>
-						<div className="col-md-2 p-0 tableOrder"><button type="button" className="btn btn-primary">O</button></div>
-						<div className="col-md-2 p-0 tableNC"><button type="button" className="btn btn-primary">NC</button></div>
+						<div className="col-md-2 p-0 runningOrder"><button type="button" className="btn btn-primary" onClick={handleShow}>RO</button></div>
+						<div className="col-md-2 p-0 tableOrder"><button type="button" className="btn btn-primary" onClick={handleShow}>O</button></div>
+						<div className="col-md-2 p-0 tableNC"><button type="button" className="btn btn-primary" onClick={handleShow}>NC</button></div>
 						<div className="col-md-2 p-0 tableBill"><button type="button" className="btn btn-primary" onClick={handleShow}>Bill</button></div>
 					</div>
-				</Link>
-				
-
-				<button type="button" className="btn btn-primary" onClick={handleShow}>Bill</button>
-
+				</div>
 				<Modal
 					show={show}
 					onHide={handleClose}

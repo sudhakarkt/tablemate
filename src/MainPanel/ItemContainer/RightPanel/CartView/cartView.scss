@@ -92,16 +92,8 @@
             }
 
             .btn {
-                padding: 5px;
                 width: 90px;
                 margin: 0 auto;
-                font-size: 0.7rem;
-                background-color: $btnPrimaryColor;
-                border-color: $btnPrimaryBorderColor;
-
-                &:focus {
-                    box-shadow: none;
-                }
             }
         }
     }

@@ -10,29 +10,8 @@ class TableView extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <div className="col-md-10 tableviewContainer">
+                <div className="col tableviewContainer">
                     <div className="row">
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
-                        <TableViewInner />
                         <TableViewInner />
                         <TableViewInner />
                         <TableViewInner />

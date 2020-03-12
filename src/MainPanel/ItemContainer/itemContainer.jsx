@@ -3,6 +3,7 @@ import CategoryItem from "./CategoryItem/categoryItem";
 import SubCategoryItem from "./SubCategoryItem/subCategoryItem";
 import Search from "../ItemContainer/Search/search";
 import RightPanel from "../ItemContainer/RightPanel/rightPanel";
+import "./itemContainer.scss";
 
 class itemContainer extends Component {
   constructor(props) {
@@ -14,7 +15,7 @@ class itemContainer extends Component {
       <React.Fragment>
         <div className="itemContainer">
           <div className="row">
-            <div className="col-md-10">
+            <div className="col itemLeftContainer">
               <Search />
               <div className="row">
                 <div className="col-md-2">
@@ -25,7 +26,7 @@ class itemContainer extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-2">
+            <div className="col itemRightContainer">
               <RightPanel />
             </div>
           </div>

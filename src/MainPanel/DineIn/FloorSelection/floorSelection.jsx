@@ -10,7 +10,7 @@ class FloorSelection extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <div className="col-md-2 floorSelectionContainer">
+                <div className="col floorSelectionContainer">
                     <div className="row">
                         <div className="col">
                             <ul>

@@ -225,7 +225,7 @@ class CartView extends Component {
                                     </table>
                                 </div>
                                 <div className="currentOrderContainer">
-                                    <p className="currentOrders">Currnet Order(s) : &#x20b9; 52324.25</p>
+                                    <p className="currentOrders">Current Order(s) : &#x20b9; 52324.25</p>
                                     <button type="button" className="btn btn-primary">Order</button>
                                 </div>
                                 

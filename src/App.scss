@@ -1,3 +1,4 @@
+@import "./theme.scss";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
 html, body {
@@ -22,4 +23,33 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn {
+  padding: 5px;
+  font-size: 0.7rem;
+  background-color: $btnPrimaryColor;
+  border-color: $btnPrimaryBorderColor;
+
+  &:hover {
+    background-color: $btnPrimaryColor;
+    border-color: $btnPrimaryBorderColor;
+  }
+
+  &:focus, &:active {
+    background-color: $btnPrimaryColor;
+    border-color: $btnPrimaryBorderColor;
+    box-shadow: 0 0 0 0.2rem rgba(171, 126, 15, 0.5);
+  }
+
+}
+
+.modal-header {
+  padding: 10px;
+  background-color: #f7ebd0;
+  
+  .modal-title {
+    font-size: 0.85rem;
+  }
+
 }

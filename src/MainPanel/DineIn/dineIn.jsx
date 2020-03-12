@@ -7,11 +7,9 @@ class DineIn extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <div className="dineInContainer">
-                    <div className="row">
-                        <FloorSelection />
-                        <TableView />
-                    </div>
+                <div className="row dineInContainer">
+                    <FloorSelection />
+                    <TableView />
                 </div>
             </React.Fragment>
          ); 
