@@ -1,40 +1,37 @@
-@import '../../../theme.scss';
+@import "../../../theme.scss";
 
 .floorSelectionContainer {
-    height: calc(100vh - 50px);
-    width: 250px;
-    flex-wrap: nowrap;
-    flex-basis: auto;
-    overflow: auto;
+  height: calc(100vh - 50px);
+  width: 250px;
+  flex-wrap: nowrap;
+  flex-basis: auto;
+  overflow: auto;
 
-    ul {
-        padding: 0px;
-        margin: 15px 0 0 0;
+  ul {
+    padding: 0px;
+    margin: 15px 0 0 0;
 
-        li {
-            list-style-type: none;
-            background-color: #fff9eb;
+    li {
+      list-style-type: none;
+      background-color: #fff9eb;
 
-            &:nth-child(even) {
-                background-color: #fff2d4;
-            }
+      &:nth-child(even) {
+        background-color: #fff2d4;
+      }
 
-            a {
-                display: flex;
-                align-items: center;
-                color: inherit;
-                font-size: 0.85rem;
-                height: 60px;
-                padding: 0 10px;
-                font-weight: 400;
+      a {
+        display: flex;
+        align-items: center;
+        color: inherit;
+        font-size: 1rem;
+        height: 60px;
+        padding: 0 10px;
+        font-weight: 400;
 
-                &:hover {
-                    text-decoration: none;
-                }
-
-            }
-
+        &:hover {
+          text-decoration: none;
         }
+      }
     }
-    
+  }
 }

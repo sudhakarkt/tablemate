@@ -15,18 +15,18 @@ function TableViewInner(props) {
 					<Link to='./menu' className="tableNameInnerLink"></Link>
 					<div className="row tableHeader">
 						<div className="col-md-4">
-							<button type="button" className="tableInnerName" onClick={handleShow}>F10</button>
+							<button type="button" className="btn btn-primary tableInnerName" onClick={handleShow}>F10</button>
 						</div>
 						<div className="col-md-8">
-							<button type="button" className="tableValue" onClick={handleShow}>Sudhakar KT</button>
+							<button type="button" className="btn btn-primary tableValue" onClick={handleShow}>Sudhakar KT</button>
 						</div>
 					</div>
 					<div className="row tableNameValue">
 						<div className="col-md-7">
-							<button type="button" className="guestName" onClick={handleShow}>Karthick V</button>
+							<button type="button" className="btn btn-primary guestName" onClick={handleShow}>Karthick V</button>
 						</div>
 						<div className="col-md-5">
-							<button type="button" className="paxName" onClick={handleShow}>KT</button>
+							<button type="button" className="btn btn-primary paxName" onClick={handleShow}>KT</button>
 						</div>
 					</div>
 					<div className="row m-0 tableMenu">

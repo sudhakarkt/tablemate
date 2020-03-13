@@ -1,82 +1,104 @@
-@import '../../../../theme.scss';
+@import "../../../../theme.scss";
 
-    .subCategoryName {
-        margin-bottom: 15px;
-        min-width: 250px;
+.subCategoryName {
+  margin-bottom: 15px;
+  min-width: 250px;
 
-        .subCategoryInner {
-            background: $SubCategoryTileBG;
-            min-height: $subCategoryTileHeight;
-            box-shadow: 1px 0 3px rgba(0,0,0,0.1525);
-            font-size: 0.85rem;
-            justify-content: center;
-            border-radius: 10px;
-            align-items: center;
-            position: relative;
-            overflow: hidden;
+  .subCategoryInner {
+    background: $SubCategoryTileBG;
+    min-height: $subCategoryTileHeight;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.1525);
+    font-size: 0.85rem;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
 
-            .subCategoryInnerLink {
-                position: absolute;
-                left: 0;
-                right: 0;
-                top: 0;
-                bottom: 0;
-                z-index: 9;
-            }
+    .subCategoryInnerLink {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 9;
+    }
 
-            .subCategoryValue {
-                text-transform: uppercase;
-                text-align: center;
-                font-weight: 600;
-                margin-bottom: 5px;
-                // display: flex;
-                // flex-direction: column;
+    .subCategoryValue {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 600;
+      margin-bottom: 5px;
+      // display: flex;
+      // flex-direction: column;
 
-                p {
-                    margin: 8px 0;
-                    // display: inline-flex;
-                    // position: relative;
-                    // z-index: 99;
-                    // align-self: center;
+      p {
+        margin: 8px 0;
+        // display: inline-flex;
+        // position: relative;
+        // z-index: 99;
+        // align-self: center;
 
-                    &.valuePrice {
-                        color: #6f4f00;
-                    }
-                }
-            }
-
-            .subCategoryMenu {
-                justify-content: space-around;
-
-                .btn {
-                    width: 100%;
-                    position: relative;
-                    z-index: 99;
-                }
-                    
-                .runningOrder {
-                    overflow: hidden;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                }
-
-                .tableOrder {
-                    overflow: hidden;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                }
-
-                .tableNC {
-                    overflow: hidden;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                }
-
-                .tableBill {
-                    overflow: hidden;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                }
-            }
+        &.valuePrice {
+          color: #6f4f00;
         }
-   }
+      }
+    }
+
+    .subCategoryMenu {
+      justify-content: space-around;
+
+      .btn {
+        width: 100%;
+        position: relative;
+        z-index: 99;
+      }
+
+      .runningOrder {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .tableOrder {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .tableNC {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .tableBill {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
+
+.customProductContainer {
+	display: flex;
+	justify-content: space-evenly;
+	width: 300px;
+	margin: 0 auto;
+
+  .customProductValue {
+		display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7ebd0;
+    padding: 5px;
+    border-radius: 4px;
+		color: inherit;
+		
+		&:hover {
+			text-decoration: none;
+		}
+  }
+}
