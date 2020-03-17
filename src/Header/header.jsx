@@ -82,6 +82,34 @@ function Header() {
                       <td>EKOT</td>
                       <td>Print</td>
                     </tr>
+                    <tr>
+                      <td>13-03-2020 11:35:00 AM</td>
+                      <td>3A</td>
+                      <td>130320205-1</td>
+                      <td>EKOT</td>
+                      <td>Print</td>
+                    </tr>
+                    <tr>
+                      <td>13-03-2020 11:35:00 AM</td>
+                      <td>3A</td>
+                      <td>130320205-1</td>
+                      <td>EKOT</td>
+                      <td>Print</td>
+                    </tr>
+                    <tr>
+                      <td>13-03-2020 11:35:00 AM</td>
+                      <td>3A</td>
+                      <td>130320205-1</td>
+                      <td>EKOT</td>
+                      <td>Print</td>
+                    </tr>
+                    <tr>
+                      <td>13-03-2020 11:35:00 AM</td>
+                      <td>3A</td>
+                      <td>130320205-1</td>
+                      <td>EKOT</td>
+                      <td>Print</td>
+                    </tr>
                   </tbody>
                 </table>
                 </div>
