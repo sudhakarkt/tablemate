@@ -8,6 +8,47 @@ import Button from 'react-bootstrap/Button';
 // import shoppingCart from '../Assets/shopping-cart.svg';
 import "./header.scss";
 import { Link } from 'react-router-dom';
+import DataTable from 'react-data-table-component';
+
+  const data = [
+    { id: 1, title: 'Conan the Barbarian 1', year: '1981' },
+    { id: 2, title: 'Conan the Barbarian 2', year: '1982' },
+    { id: 3, title: 'Conan the Barbarian 3', year: '1983' }
+  ];
+  const columns = [
+    {
+      name: 'Title',
+      selector: 'title',
+      sortable: true,
+    },
+    {
+      name: 'Year',
+      selector: 'year',
+      sortable: true,
+      right: true,
+    },
+  ];
+
+  const customStyles = {
+    rows: {
+      style: {
+        minHeight: '35px', // override the row height
+      }
+    },
+    headCells: {
+      style: {
+        minHeight: '35px',
+        paddingLeft: '8px', // override the cell padding for head cells
+        paddingRight: '8px',
+      },
+    },
+    cells: {
+      style: {
+        paddingLeft: '8px', // override the cell padding for data cells
+        paddingRight: '8px',
+      },
+    },
+  };
 
 function Header() {
   const [show, setShow] = useState(false);
@@ -241,41 +282,47 @@ function Header() {
               <Modal.Body>
                 <p className="d-flex col-3 mx-auto">
                   <select className="form-control">
-                    <option select>Select Table</option>
+                    <option select>Select Table 1</option>
                     <option value="1A">1A</option>
                     <option value="1B">1B</option>
                     <option value="1C">1C</option>
                     <option value="1D">1D</option>
                   </select>
                 </p>
-              <div class="table-responsive">
-                <table class="table table-bordered">
-                  <thead>
-                    <tr>
-                      <th></th>
-                      <th>Quantity</th>
-                      <th>Item</th>
-                      <th>Price</th>
-                      <th>Comments</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td></td>
-                      <td>3</td>
-                      <td>2+1 franchino wheat bear</td>
-                      <td>939.00</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td>3</td>
-                      <td>2+1 HEINEKEN</td>
-                      <td>960.70</td>
-                      <td></td>
-                    </tr>
-                  </tbody>
-                </table>
+                <div class="table-responsive">
+                  <DataTable
+                    title="Arnold Movies"
+                    columns={columns}
+                    data={data}
+                    customStyles={customStyles}
+                  />
+                  {/* <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>Quantity</th>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Comments</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                        <td>3</td>
+                        <td>2+1 franchino wheat bear</td>
+                        <td>939.00</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>3</td>
+                        <td>2+1 HEINEKEN</td>
+                        <td>960.70</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table> */}
                 </div>
               </Modal.Body>
               <Modal.Footer>
